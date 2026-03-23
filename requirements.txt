@@ -1,6 +1,0 @@
-numpy==2.4.3
-scipy==1.17.1
-sympy==1.14.0
-matplotlib==3.10.8
-tqdm==4.67.3
-jupyter

@@ -12,10 +12,10 @@ git clone https://github.com/andreydonetkov/Nonlinear_dynamical_systems_and_chao
 cd Nonlinear_dynamical_systems_and_chaos_theory
 
 # 2. Установить зависимости
-pip install -r requirements.txt
+uv sync
 
-# 3. Запустить Jupyter
-jupyter notebook
+# 3. Запустить Jupyter (по желанию)
+uv run jupyter notebook
 ```
 
 После запуска открыть нужный notebook в браузере и выполнить все ячейки (**Kernel → Restart & Run All**).
@@ -30,18 +30,6 @@ jupyter notebook
 | **ВУЗ** | НИЯУ МИФИ |
 | **Направление** | Прикладная математика и информатика |
 | **Год** | 2026 |
-
----
-
-## Структура репозитория
-
-```
-├── Homework_1.ipynb   # Домашняя работа №1
-├── files/
-│   └── 1dz.pdf        # Задание к домашней работе №1
-├── requirements.txt
-└── README.md
-```
 
 ---
 
