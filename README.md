@@ -11,14 +11,11 @@
 git clone https://github.com/andreydonetkov/Nonlinear_dynamical_systems_and_chaos_theory.git
 cd Nonlinear_dynamical_systems_and_chaos_theory
 
-# 2. Установить зависимости
+# 2. Скачать uv (утелита для синхронизации)
+
+# 3. Установить зависимости 
 uv sync
-
-# 3. Запустить Jupyter (по желанию)
-uv run jupyter notebook
 ```
-
-После запуска открыть нужный notebook в браузере и выполнить все ячейки (**Kernel → Restart & Run All**).
 
 ---
 
